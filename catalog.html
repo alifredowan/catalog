@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/cf69774856.js" crossorigin="anonymous"></script>
+    <title>Product-catalog </title>
+</head>
+<body
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark ">
+                <h1 class="navbar-brand m-auto" >Factory-Product</h1>
+                <input type="text" name="filter" id="filter" placeholder="Search Your Product" class="form-control m-3">
+        </nav>
+        <div class="card card-body">
+            <ul class="list-group collection" id="list_product">
+                <!-- <li class="list-group-item collection-item" id="productName" >
+                    <strong></strong>
+                    <span class="price"></span>
+                    <i class="fas fa-trash-alt float-right deleteBtn"></i>
+                </li> -->
+             </ul>
+             <span class="msg"></span>
+            <form>
+                <div class="row mt-3">
+                    <div class="col">
+                        <input type="text" placeholder="Project_Name" class="form-control productName"> 
+                    </div>
+
+                    <div class="col">
+                        <input type="number" placeholder="Project_Price" class="form-control productPrice"> 
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block mt-3 ProductBtn" >Submit</button>
+            </form> 
+        </div>
+    </div>
+<script src="catalog.js"></script>
+</body>
+</html>
